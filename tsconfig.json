@@ -4,6 +4,7 @@
 		"jsx": "react",
 		"paths": {
 			"~@redux/*": ["./src/redux/*"]
-		}
+		},
+		"lib": ["dom", "ESNext"]
 	}
 }

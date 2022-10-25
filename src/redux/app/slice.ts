@@ -6,7 +6,7 @@ export const appSlice = createSlice({
 		loading: false,
 	},
 	reducers: {
-		setLoading: (state, action) => {
+		setLoadingSuccess: (state, action) => {
 			state.loading = action.payload;
 		},
 	},
