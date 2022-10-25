@@ -1,8 +1,19 @@
 {
 	"name": "react-kit",
 	"version": "1.0.0",
-	"main": "index.js",
 	"author": "Buğra Mengi <bumengi94@gmail.com>",
 	"license": "MIT",
-	"repository": "git@github.com:bumengi94/react-kit"
+	"repository": "git@github.com:bumengi94/react-kit",
+	"scripts": {
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.23",
+		"@types/react-dom": "^18.0.7",
+		"vite": "^3.1.8"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
 }
